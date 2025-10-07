@@ -1,0 +1,40 @@
+Task-1 
+
+def factorial(n):
+    if n < 2:
+        return 1
+    else:
+        return n * factorial(n - 1)
+result = factorial(5)
+print(result)
+
+
+C:\Users\nirma\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\nirma\PycharmProjects\PythonProject\main.py 
+120
+
+Process finished with exit code 0
+
+
+
+Task-2
+import math
+num = float(input("Enter a number: "))
+
+square_root = math.sqrt(num)
+natural_log = math.log(num)
+sine_value = math.sin(num)
+
+print("Square root of", num, "is:", square_root)
+print("Natural logarithm (base e) of", num, "is:", natural_log)
+print("Sine of", num, "radians is:", sine_value)
+
+
+
+C:\Users\nirma\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\nirma\PycharmProjects\PythonProject\main.py 
+Enter a number: 26
+Square root of 26.0 is: 5.0990195135927845
+Natural logarithm (base e) of 26.0 is: 3.258096538021482
+Sine of 26.0 radians is: 0.7625584504796027
+
+Process finished with exit code 0
+
