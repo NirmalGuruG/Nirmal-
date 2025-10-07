@@ -1,0 +1,36 @@
+Task -1
+
+	number = int(input("Enter an integer: "))
+
+if number % 2 == 0:
+    print("Even")
+elif number % 2 == 1:
+    print("Odd")
+
+C:\Users\nirma\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\nirma\PycharmProjects\PythonProject\main.py 
+Enter an integer: 11
+Odd
+
+C:\Users\nirma\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\nirma\PycharmProjects\PythonProject\main.py 
+Enter an integer: 14
+Even
+
+Process finished with exit code 0
+
+
+
+
+Task-2
+
+total_sum = 0
+
+for i in range(1, 51):
+    total_sum += i
+
+print("The sum of integers from 1 to 50 is:", total_sum)
+
+
+C:\Users\nirma\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\nirma\PycharmProjects\PythonProject\main.py 
+The sum of integers from 1 to 50 is: 1275
+
+Process finished with exit code 0
