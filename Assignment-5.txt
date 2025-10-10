@@ -1,0 +1,90 @@
+Task 1: Create a Dictionary of Student Marks
+
+Problem Statement: Write a Python program that:
+1.   Creates a dictionary where student names are keys and their marks are values.
+2.   Asks the user to input a student's name.
+3.   Retrieves and displays the corresponding marks.
+4.   If the student’s name is not found, display an appropriate message.
+
+
+dictionary = {'Mohan': '85', 'Sohan': '81', 'Murat': '75', 'Preet': '65', 'Johan': '82'}
+
+student_name = input("Enter the student's name: ")
+
+marks = dictionary.get(student_name, None)
+
+if marks is not None:
+    print(f"{student_name}'s marks are: {marks}")
+else:
+    print(f"Student name not found for {student_name}.")
+
+
+C:\Users\nirma\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\nirma\PycharmProjects\PythonProject\Dictionary.py 
+Enter the student's name: Sohan
+Sohan's marks are: 81
+
+Process finished with exit code 0
+
+
+If name not found 
+
+dictionary = {'Mohan': '85', 'Sohan': '81', 'Murat': '75', 'Preet': '65', 'Johan': '82'}
+
+student_name = input("Enter the student's name: ")
+
+marks = dictionary.get(student_name, None)
+
+if marks is not None:
+    print(f"{student_name}'s marks are: {marks}")
+else:
+    print(f"Student name not found for {student_name}.")
+
+
+C:\Users\nirma\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\nirma\PycharmProjects\PythonProject\Dictionary.py 
+Enter the student's name: Kiran
+Student name not found for Kiran.
+
+Process finished with exit code 0
+
+
+
+
+
+Task-2  
+
+Problem Statement: Write a Python program that:
+1.   Creates a list of numbers from 1 to 10.
+2.   Extracts the first five elements from the list.
+3.   Reverses these extracted elements.
+4.   Prints both the extracted list and the reversed list
+
+
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+first_five = numbers[:5]
+print("First five elements:", first_five)
+
+
+Ans
+
+C:\Users\nirma\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\nirma\PycharmProjects\PythonProject\List.py 
+First five elements: [1, 2, 3, 4, 5]
+
+Process finished with exit code 0
+
+
+ Reverses these extracted elements.
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+first_five = numbers[:5]
+reversed_first_five = first_five[::-1]
+
+print("Reversed first five elements:", reversed_first_five)
+
+
+Ans
+
+C:\Users\nirma\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\nirma\PycharmProjects\PythonProject\List.py 
+Reversed first five elements: [5, 4, 3, 2, 1]
+
+Process finished with exit code 0
